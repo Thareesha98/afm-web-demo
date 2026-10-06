@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://api.openai.com https://api.anthropic.com https://registry.modelcontextprotocol.io https://raw.githubusercontent.com https://gist.githubusercontent.com http://localhost:8787; worker-src 'self' blob:; object-src 'none'; base-uri 'none'; form-action 'none'" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https://api.openai.com https://api.anthropic.com https://registry.modelcontextprotocol.io https://raw.githubusercontent.com https://gist.githubusercontent.com http://localhost:8787; worker-src 'self' blob:; object-src 'none'; base-uri 'none'; form-action 'none'" />
     <!-- viewport-fit=cover lets env(safe-area-inset-*) report real values, which the composer
          and other bottom-docked controls use to clear the home indicator on notched phones. -->
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
@@ -15,7 +15,7 @@
 
         Content-Security-Policy: default-src 'self'; script-src 'self';
           style-src 'self' 'unsafe-inline';
-          img-src 'self' data: blob:;
+          img-src 'self' data: blob: https:;
           font-src 'self' data:;
           connect-src 'self' https://api.openai.com https://api.anthropic.com
             https://registry.modelcontextprotocol.io https://raw.githubusercontent.com
@@ -38,8 +38,8 @@
       has to keep stripping frame-ancestors from the <meta> copy regardless of its value, since
       browsers ignore that directive there no matter what it says.
     -->
-    <script type="module" crossorigin src="/afm-web-demo/assets/index-C9a7Qu3s.js"></script>
-    <link rel="stylesheet" crossorigin href="/afm-web-demo/assets/index-DS8aDBmg.css">
+    <script type="module" crossorigin src="/afm-web-demo/assets/index-CuHaalBM.js"></script>
+    <link rel="stylesheet" crossorigin href="/afm-web-demo/assets/index-CbL5bkTd.css">
   </head>
   <body>
     <div id="root"></div>
